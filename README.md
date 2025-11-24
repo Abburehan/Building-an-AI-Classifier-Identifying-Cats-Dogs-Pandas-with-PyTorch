@@ -84,3 +84,7 @@ data_dir = "/kaggle/input/cats-and-dogs-and-pandas/"
 🖼 Clear plots of training & validation curves
 
 🐱🐶🐼 Model successfully identifies all 3 classes
+
+## Result
+
+Thus an AI Classifier that Identifies Cats, Dogs & Pandas with PyTorch is built successfully.
