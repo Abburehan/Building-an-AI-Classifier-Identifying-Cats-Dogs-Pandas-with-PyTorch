@@ -19,7 +19,8 @@ This project builds a deep learning image classifier that identifies **cats**, *
 
 DL_Classification_Project/
 │
-├── DL_Classification_project.ipynb # Main Jupyter Notebook
+
+├── DL_Classification_project.ipynb 
 
 ├── README.md
 │
@@ -47,8 +48,11 @@ Download any cats–dogs–pandas dataset (Kaggle recommended).
 Arrange it in the following structure:
 
 dataset/
+
  ├── train/
+ 
  ├── valid/
+ 
  └── test/
 
 ## 3️⃣ Verify CUDA (GPU) Availability
@@ -60,6 +64,7 @@ import torch
 print("CUDA Available:", torch.cuda.is_available())
 print("Device:", torch.cuda.get_device_name(0) if torch.cuda.is_available() else "CPU")
 ```
+
 If CUDA is unavailable, the code automatically switches to CPU.
 
 ## 💻 Running on Kaggle
@@ -72,6 +77,7 @@ If CUDA is unavailable, the code automatically switches to CPU.
 3. Attach dataset via Add Data → Cats and Dogs and Pandas Dataset
 
 4. Set the dataset path:
+   
 ```
 data_dir = "/kaggle/input/cats-and-dogs-and-pandas/"
 ```
