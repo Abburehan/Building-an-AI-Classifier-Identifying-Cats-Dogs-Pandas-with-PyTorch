@@ -20,11 +20,15 @@ This project builds a deep learning image classifier that identifies **cats**, *
 DL_Classification_Project/
 │
 ├── DL_Classification_project.ipynb # Main Jupyter Notebook
-├── README.md # Project Readme
+
+├── README.md
 │
-└── dataset/ # Recommended Data Layout
+└── dataset/
+
 ├── train/
+
 ├── valid/
+
 └── test/
 
 ```
