@@ -91,7 +91,7 @@ data_dir = "/kaggle/input/cats-and-dogs-and-pandas/"
 
 • Clear plots of training & validation curves
 
-🐱🐶🐼 Model successfully identifies all 3 classes
+• Model successfully identifies all 3 classes
 
 ## Result
 
