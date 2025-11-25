@@ -6,14 +6,13 @@ This project builds a deep learning image classifier that identifies **cats**, *
 
 ## Features
 
-- ✔ Transfer Learning with a pre-trained ResNet architecture  
-- ✔ Data augmentation & preprocessing using `torchvision.transforms`  
-- ✔ Structured training, validation & testing loops  
-- ✔ Visualization of training/validation loss & accuracy  
-- ✔ Automatic GPU (CUDA) detection and usage  
-- ✔ Works seamlessly on both local machines and Kaggle  
+-  Transfer Learning with a pre-trained ResNet architecture  
+-  Data augmentation & preprocessing using `torchvision.transforms`  
+-  Structured training, validation & testing loops  
+-  Visualization of training/validation loss & accuracy  
+-  Automatic GPU (CUDA) detection and usage  
+-  Works seamlessly on both local machines and Kaggle  
 
----
 
 ## Project Structure
 
@@ -37,12 +36,12 @@ pip install torch torchvision torchaudio matplotlib numpy pandas tqdm
 ```
 
 ## How to Use the Notebook
-## 1️⃣ Open the Notebook
+## 1️ Open the Notebook
 
 ```
 jupyter notebook DL_Classification_project.ipynb
 ```
-## 2️⃣ Preparing the Dataset
+## 2️ Preparing the Dataset
 
 Download any cats–dogs–pandas dataset (Kaggle recommended).
 Arrange it in the following structure:
@@ -86,11 +85,11 @@ data_dir = "/kaggle/input/cats-and-dogs-and-pandas/"
 
 ## Model Performance
 
-🎯 Fine-tuned ResNet model
+• Fine-tuned ResNet model
 
-📈 High accuracy on test images
+• High accuracy on test images
 
-🖼 Clear plots of training & validation curves
+• Clear plots of training & validation curves
 
 🐱🐶🐼 Model successfully identifies all 3 classes
 
