@@ -1,5 +1,4 @@
 # Building-an-AI-Classifier-Identifying-Cats-Dogs-Pandas-with-PyTorch
-# 🧠 AI Image Classifier – Cats 🐱 | Dogs 🐶 | Pandas 🐼 Using PyTorch
 
 This project builds a deep learning image classifier that identifies **cats**, **dogs**, and **pandas** using **PyTorch** and **Transfer Learning**. A pre-trained **ResNet** model is fine-tuned on a custom dataset with full support for both **local GPU**, **CPU**, and **Kaggle notebook** execution.
 
