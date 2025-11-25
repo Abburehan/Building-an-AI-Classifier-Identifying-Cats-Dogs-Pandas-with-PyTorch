@@ -4,7 +4,7 @@ This project builds a deep learning image classifier that identifies **cats**, *
 
 ---
 
-## 🚀 Features
+## Features
 
 - ✔ Transfer Learning with a pre-trained ResNet architecture  
 - ✔ Data augmentation & preprocessing using `torchvision.transforms`  
@@ -15,7 +15,7 @@ This project builds a deep learning image classifier that identifies **cats**, *
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 DL_Classification_Project/
 │
@@ -36,7 +36,7 @@ DL_Classification_Project/
 pip install torch torchvision torchaudio matplotlib numpy pandas tqdm
 ```
 
-## 📘 How to Use the Notebook
+## How to Use the Notebook
 ## 1️⃣ Open the Notebook
 
 ```
@@ -67,7 +67,7 @@ print("Device:", torch.cuda.get_device_name(0) if torch.cuda.is_available() else
 
 If CUDA is unavailable, the code automatically switches to CPU.
 
-## 💻 Running on Kaggle
+## Running on Kaggle
 
 1. Upload the notebook to Kaggle
 
@@ -84,7 +84,7 @@ data_dir = "/kaggle/input/cats-and-dogs-and-pandas/"
 
 5. Run all cells — training, evaluation, and plots will execute automatically.
 
-## 📊 Model Performance
+## Model Performance
 
 🎯 Fine-tuned ResNet model
 
